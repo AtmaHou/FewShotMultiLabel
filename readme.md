@@ -29,7 +29,9 @@ Set BERT path in the ./utils/config.py
 
 ### Prepare data
 Get data at `./data/`
+
 Full data is available by contacting me, or you can generate it by your self:
+
 Set test, train, dev data file path in ./scripts/
 
 #### Few-shot Data Generation Tool
