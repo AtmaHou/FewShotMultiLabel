@@ -1,8 +1,8 @@
 # Few-shot MLC
 
-The code of paper [Few-Shot Learning for Multi-label Intent Detection](https://arxiv.org/abs/2010.05256).
+The code of AAAI2021 paper [Few-Shot Learning for Multi-label Intent Detection](https://arxiv.org/abs/2010.05256).
 
-The code framework is inherited [MetaDialog Framework](https://github.com/AtmaHou/MetaDialog), welcome to use it.
+The code framework is based on few-shot learning platform: [MetaDialog Framework](https://github.com/AtmaHou/MetaDialog).
 
 ## Get Started
 ### Requirement
