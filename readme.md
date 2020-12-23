@@ -2,7 +2,7 @@
 
 The code of AAAI2021 paper [Few-Shot Learning for Multi-label Intent Detection](https://arxiv.org/abs/2010.05256).
 
-The code framework is based on few-shot learning platform: [MetaDialog Framework](https://github.com/AtmaHou/MetaDialog).
+The code framework is based on few-shot learning platform: [MetaDialog](https://github.com/AtmaHou/MetaDialog).
 
 ## Get Started
 ### Requirement
@@ -28,11 +28,12 @@ pytorch_pretrained_bert convert_tf_checkpoint_to_pytorch
 Set BERT path in the ./utils/config.py
 
 ### Prepare data
-Original data is available by contacting me, or you can generate it:
+Data is available by contacting me, or you can generate it by your self:
 Set test, train, dev data file path in ./scripts/
 
-#### Few-shot Data Generation
+#### Few-shot Data Generation Tool
 We provide a generation tool for converting normal data into few-shot/meta-episode style. 
+See details at [here](https://github.com/AtmaHou/MetaDialog#few-shot-data-construction-tool)
 
 
 ### The Scripts
