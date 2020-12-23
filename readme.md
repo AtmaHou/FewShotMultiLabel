@@ -40,9 +40,9 @@ See details at [here](https://github.com/AtmaHou/MetaDialog#few-shot-data-constr
 ### Run!
 
 Execute the command line to run with scripts:
-'''
+```
 source ./scripts/run_1_shot_slot_tagging.sh [gpu_id]
-'''
+```
 
 We provide all scripts for experiment at  `./scripts/`, and you can also directly run with `./main.py`.
 
