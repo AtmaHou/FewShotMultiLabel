@@ -77,4 +77,3 @@ result_analysis/
 .DS_store
 check_cache.py
 *.xlsx
-data/
