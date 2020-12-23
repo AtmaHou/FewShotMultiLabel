@@ -28,7 +28,8 @@ pytorch_pretrained_bert convert_tf_checkpoint_to_pytorch
 Set BERT path in the ./utils/config.py
 
 ### Prepare data
-Data is available by contacting me, or you can generate it by your self:
+Get data at `./data/`
+Full data is available by contacting me, or you can generate it by your self:
 Set test, train, dev data file path in ./scripts/
 
 #### Few-shot Data Generation Tool
@@ -36,10 +37,14 @@ We provide a generation tool for converting normal data into few-shot/meta-episo
 See details at [here](https://github.com/AtmaHou/MetaDialog#few-shot-data-construction-tool)
 
 
-### The Scripts
+### Run!
 
-All the scripts are saved in the folder `scripts`.
-We only release the best setting scripts of our method.
+Execute the command line to run with scripts:
+'''
+source ./scripts/run_1_shot_slot_tagging.sh [gpu_id]
+'''
+
+We provide all scripts for experiment at  `./scripts/`, and you can also directly run with `./main.py`.
 
 bert based scripts:
 - `run_b_stanford_1_main.sh`
