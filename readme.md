@@ -52,5 +52,12 @@ electra based scripts:
 - `run_e_toursg_1_main.sh`
 - `run_e_toursg_5_main.sh`
 
+#### [2020-12-28] add script to generate `tag_dict.all` file
+
+- script: `scripts/get_tag_data_from_training_dataset.py`
+- operation:
+	- change the parameters called `MODEL_DIR` and `DATA_DIR`
+- command: `python scripts/get_tag_data_from_training_dataset.py`
+ 
 
 
