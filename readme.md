@@ -43,7 +43,7 @@ See details at [here](https://github.com/AtmaHou/MetaDialog#few-shot-data-constr
 
 Execute the command line to run with scripts:
 ```
-source ./scripts/run_1_shot_slot_tagging.sh [gpu_id]
+source ./scripts/run_b_stanford_1_main.sh [gpu_id]
 ```
 
 We provide all scripts for experiment at  `./scripts/`, and you can also directly run with `./main.py`.
