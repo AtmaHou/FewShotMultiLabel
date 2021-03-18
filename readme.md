@@ -28,7 +28,7 @@ pytorch_pretrained_bert convert_tf_checkpoint_to_pytorch
 Set BERT path in the ./utils/config.py
 
 ### Prepare data
-Get data at `./data/`
+Get StanfordLU data at `./data/`
 
 Full data is available by contacting me, or you can generate it by your self:
 
