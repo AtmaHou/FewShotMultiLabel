@@ -1,7 +1,20 @@
 # Readme
-Due to data copyright reasons, we only provide the StanfordLU data (few-shot version) in the experiment, and hide all slot labels.
+Due to data copyright reasons, we only provide the all the few-shot version data in the experiment, and hide all slot labels.
 
-Contact me to obtain full data.
+Get full StandfordLU data at [link](https://atmahou.github.io/attachments/StanfordLU.zip), which contains both slot and intent labels for full data.
+To use this data, please cite:
+```
+@inproceedings{hou2018coling,
+	author    = {Yutai Hou and
+	Yijia Liu and
+	Wanxiang Che and
+	Ting Liu},
+	title     = {Sequence-to-Sequence Data Augmentation for Dialogue Language Understanding},
+	booktitle = {Proc. of COLING},
+	pages     = {1234--1245},
+	year      = {2018},
+}
+```
 
 # Data Format
 few-shot/meta-episode style data example
